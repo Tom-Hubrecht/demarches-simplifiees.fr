@@ -5,11 +5,11 @@
    width="360"
    version="1.1"
    id="svg18"
-   sodipodi:docname="logo-ds-wide.svg"
+   sodipodi:docname="logo-ds-wide_source.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   inkscape:export-filename="logo-ds-wide.svg"
-   inkscape:export-xdpi="150"
-   inkscape:export-ydpi="150"
+   inkscape:export-filename="logo-ds-wide.png"
+   inkscape:export-xdpi="323.37"
+   inkscape:export-ydpi="323.37"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +28,8 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="4.2777778"
-     inkscape:cx="115.12987"
-     inkscape:cy="26.532468"
+     inkscape:cx="171.7013"
+     inkscape:cy="26.766234"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -138,13 +138,13 @@
          transform="matrix(0.71886577,0,0,0.71886577,-1759.6753,-214.44053)"><tspan
            x="2324.8196"
            y="316.83685"
-           id="tspan2960"><tspan
+           id="tspan4267"><tspan
              style="font-weight:bold;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';fill:#ffffff"
-             id="tspan2954">DG</tspan><tspan
+             id="tspan4261">DG</tspan><tspan
              style="font-weight:bold;font-family:Carlito;-inkscape-font-specification:'Carlito Bold'"
-             id="tspan2956">N</tspan><tspan
+             id="tspan4263">N</tspan><tspan
              style="font-family:Carlito;-inkscape-font-specification:Carlito"
-             id="tspan2958">UM</tspan></tspan></text>
+             id="tspan4265">UM</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:23.8194px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.893227"
