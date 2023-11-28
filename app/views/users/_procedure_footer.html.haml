@@ -1,7 +1,6 @@
 %footer.fr-footer.footer-procedure#footer{ role: "contentinfo" }
   .fr-footer__top.fr-mb-0
     .fr-container
-      %h2.sr-only= t("links.footer.top_labels.hidden_title_procedure")
       .fr-grid-row.fr-grid-row--start.fr-grid-row--gutters
         .fr-col-12.fr-col-sm-4.fr-col-md-4
           = render partial: 'shared/dossiers/update_contact_information', locals: { dossier: dossier, procedure: procedure }
@@ -36,15 +35,6 @@
             %h3.fr-footer__top-cat= I18n.t('users.procedure_footer.dematerialisation.header')
             .fr-download
               = link_to I18n.t('users.procedure_footer.dematerialisation.title_1'), commencer_dossier_vide_for_revision_path(procedure.active_revision), download: 'true', class: 'fr-download__link'
-          %h3.fr-footer__top-cat= I18n.t('users.procedure_footer.support.header')
-          %ul.fr-footer__top-list
-            %li
-              = link_to I18n.t('users.procedure_footer.support_links.france_service.title'), t("users.procedure_footer.support_links.france_service.url"),
-                title: new_tab_suffix(t("users.procedure_footer.support_links.france_service.title")), class: "fr-footer__link", **external_link_attributes
-
-            %li
-              = link_to I18n.t('users.procedure_footer.support_links.carte_inclusion.title'), t("users.procedure_footer.support_links.carte_inclusion.url"),
-                title: new_tab_suffix(t("users.procedure_footer.support_links.carte_inclusion.title")), class: "fr-footer__link", **external_link_attributes
 
   .fr-footer__bottom.fr-mt-0
     .fr-container

@@ -9,8 +9,8 @@ FAVICONS_SRC = {
 }.compact_blank.freeze
 
 # Header logo
-HEADER_LOGO_SRC = ENV.fetch("HEADER_LOGO_SRC", "marianne.png")
-HEADER_LOGO_ALT = ENV.fetch("HEADER_LOGO_ALT", "Liberté, égalité, fraternité")
+HEADER_LOGO_SRC = ENV.fetch("HEADER_LOGO_SRC", "republique-francaise-logo.svg")
+HEADER_LOGO_ALT = ENV.fetch("HEADER_LOGO_ALT", "Délégation Générale Numérique (DGNum)")
 HEADER_LOGO_WIDTH = ENV.fetch("HEADER_LOGO_WIDTH", "65")
 HEADER_LOGO_HEIGHT = ENV.fetch("HEADER_LOGO_HEIGHT", "56")
 

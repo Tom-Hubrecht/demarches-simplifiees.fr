@@ -19,11 +19,17 @@ fr:
       legals:
         header: "Cadre juridique"
         data_retention: "Rétention et archivage des données : %{duree_conservation_dossiers_dans_ds} mois"
-        data_retention_url: "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/archivage-longue-duree-des-demarches"
+        data_retention_url: "https://docs.dgnum.eu/s/demarches-normaliennes/doc/archivage-longue-duree-des-demarches-wtw0w8E9PA"
         data_retention_title: "%{data_retention_title}"
         terms: "Texte cadrant la demande d’information"
         dpo: "Contacter le Délégué à la Protection des Données"
       official_links:
+        dgnum:
+          title: dgnum.eu
+          url: "https://dgnum.eu"
+        ens:
+          title: ens.psl.eu
+          url: "https://www.ens.psl.eu"
         legifrance:
           title: legifrance.gouv.fr
           url: "https://legifrance.gouv.fr"

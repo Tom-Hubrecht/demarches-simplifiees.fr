@@ -1,7 +1,7 @@
 fr:
   links:
     provider:
-      provided_by: "la DINUM"
+      provided_by: "la DGNum"
       title: "Direction Interministérielle au Numérique"
       url: "https://numerique.gouv.fr"
     common:
@@ -23,9 +23,9 @@ fr:
         legals: Informations légales
         resources: Ressources
         diagnostic: Diagnostic
-      description_1: Démarches simplifiées est un service propulsé par
-      link_1_label: la direction interministérielle du numérique (DINUM)
-      link_1_url: "https://www.numerique.gouv.fr/dinum/"
+      description_1: Démarches normaliennes est un service propulsé par
+      link_1_label: la Délégation Générale Numérique (DGNum)
+      link_1_url: "https://www.dgnum.eu"
       link_2_label: Le code source
       description_2: est disponible en licence libre.
       copy_html: "Sauf mention contraire, les données publiques de ce site sont sous %{link}"
@@ -35,7 +35,7 @@ fr:
       api_doc:
         label: "Documentation de l’API"
         title: "Documentation de l’API au format graphql"
-        url: "https://doc.demarches-simplifiees.fr/api-graphql"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/doc/api-graphql-wBZIww60cM"
       dinum:
         title: "Le site de la DINUM — Direction interministérielle du numérique"
         url: "https://www.numerique.gouv.fr/dinum/"
@@ -43,17 +43,17 @@ fr:
       cgu:
         label: "CGU"
         title: "Conditions Générales d’Utilisation"
-        url: "https://doc.demarches-simplifiees.fr/cgu"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/doc/conditions-generales-dutilisation-bp8KxfE00J"
       code:
         label: "Code source"
-        url: "https://github.com/demarches-simplifiees/demarches-simplifiees.fr"
+        url: "https://git.dgnum.eu/DGNum/demarches-normaliennes"
       contact_technique:
         label: "Contact technique"
         title: "Contacter notre équipe technique"
       doc:
         label: "Documentation"
         title: "Documentation utilisateur"
-        url: "https://doc.demarches-simplifiees.fr"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/"
       vote_feature:
         label: "Améliorer le site"
         title: "Votez pour vos améliorations prioritaires ou proposez votre propre idée"
@@ -65,8 +65,8 @@ fr:
         url: "https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases"
       security:
         label: "Sécurité"
-        title: "Politique et procédure de sécurité"
-        url: 'https://github.com/demarches-simplifiees/demarches-simplifiees.fr/blob/main/SECURITY.md'
+        title: "Vous avez identifié une faille, comment nous en informer"
+        url: "mailto:secu@dgnum.eu"
       stats:
         label: "Statistiques"
       carte:

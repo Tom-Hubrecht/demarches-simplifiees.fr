@@ -26,10 +26,6 @@ describe 'layouts/_header', type: :view do
     it { is_expected.to have_css(".fr-header__logo") }
     it { is_expected.to_not have_css(".account-btn") }
 
-    it 'displays the Help link' do
-      expect(subject).to have_link('Aide', href: I18n.t("links.common.faq.url"))
-    end
-
     context 'when on a procedure page' do
       let(:procedure) { create(:procedure, :with_service) }
 
@@ -50,10 +46,6 @@ describe 'layouts/_header', type: :view do
     it { is_expected.to have_css(".fr-header__logo") }
     it { is_expected.to have_link("Mes dossiers", href: dossiers_path) }
     it { is_expected.to have_selector(:button, user.email, class: "account-btn") }
-
-    it 'displays the Help button' do
-      expect(subject).to have_link("Aide", href: I18n.t("links.common.faq.url"))
-    end
   end
 
   context 'when rendering for instructeur' do

@@ -104,30 +104,30 @@ en:
       title: "Legal Notices"
       editing: "Editor"
       editing_content:
-        line_one: "Interministerial Directorate for Digital Affairs (DINUM)"
+        line_one: "Délégation Générale Numérique (DGNum)"
       direction: "Publishing Department"
-      direction_content: "Ms. Stéphanie Schaer, Interministerial Director of Digital Affairs."
+      direction_content: "M. Jean-Marc Gailis, DGNum president."
       hosting: "Hosting provider"
       hosting_content:
-        firm: "OVH"
-        RCS_term: "Commercial register"
-        RCS_value: "Roubaix – Tourcoing 424 761 419 00045"
-        APE_term: "APE (business activity) code"
-        APE_value: "6202A"
-        TVA_term_html: "VAT NUMBER"
-        TVA_value: "FR 22 424 761 419"
+        firm: "DGNum"
+        RCS_term: ""
+        RCS_value: ""
+        APE_term: ""
+        APE_value: ""
+        TVA_term_html: ""
+        TVA_value: ""
         headquarters_term: "Head office"
-        headquarters_value: "2 rue Kellermann - 59100 Roubaix - France"
+        headquarters_value: "45 rue d'Ulm - 75005 Paris - France"
     accessibility_statement:
       title: "Accessibility statement"
       line_one_html: "DINUM is committed to making its service accessible in accordance with <a href=\"https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037388867\" hreflang=\"fr\">Article 47 of Law No. 2005-102 of 11 February 2005</a>."
       line_two_html: "This accessibility statement applies to <a href=\"https://%{host}\">%{app_name}</a> website."
       compliance:
         title: "Compliance status"
-        content_html: "The website Démarches simplifiées is <strong>partially compliant</strong> with <a href=\"https://accessibilite.numerique.gouv.fr/\">the General Accessibility Guidelines (RGAA)</a> version 4.1.2 as a result of the non-compliances listed below."
+        content_html: "The website Démarches normaliennes is <strong>partially compliant</strong> with <a href=\"https://accessibilite.numerique.gouv.fr/\">the General Accessibility Guidelines (RGAA)</a> version 4.1.2 as a result of the non-compliances listed below."
       results:
         title: "Test results"
-        content: "The internal audit performed in June 2023 revealed an overall compliance rate of 81.36% on the sample of pages analyzed."
+        content: "The DINUM internal audit performed in June 2023 revealed an overall compliance rate of 81.36% on the sample of pages analyzed."
         programme:
           intro: "Users can follow the measures taken by the service to improve the accessibility of the site via "
           label: "the DS accessibility continuous improvement programme"
@@ -199,27 +199,7 @@ en:
         intro: "If you are unable to access a piece of content or service, you can contact the Simplified Approaches manager to be directed to an accessible alternative or obtain the content in another form."
         infos:
           email_html: "By email:"
-          adress_html: "By post : DINUM , 20 avenue de Ségur 75007 Paris"
-      remedies:
-        title: "Remedies"
-        line_one: "If you notice a lack of accessibility that prevents you from accessing a content or functionality of the site, and you report it to us and do not manage to obtain a rapid response from us, you are entitled to contact Arcom or send your complaints to the Human Rights Defender."
-        arcom_title: "Contact Arcom"
-        arcom_content_html: "To report one or more violations of digital accessibility regulations, please use the <a href=\"https://www.arcom.fr/contact\">contact form available on the Arcom website</a>."
-        ddd_title: "Reach Out to the Human Rights Defender"
-        ddd_intro: "There are a number of ways you can exercise your rights with regard to accessibility issues you may have encountered:"
-        remedies_one:
-          label: "A contact form"
-          url: "https://www.defenseurdesdroits.fr/nous-contacter"
-          title: "A contact form - new tab"
-          info: "Select “I am a victim of discrimination,” followed by “Private goods and services,” and then “Disability.”"
-        remedies_two:
-          label: "Contact the delegate of the Human Rights Defender in your region"
-          url: "https://www.defenseurdesdroits.fr/fr/saisir/delegues"
-          title: "Contact the delegate of the Human Rights Defender in your region - new tab"
-        remedies_three_html: "Send a letter by post (free of charge, do not put a stamp) to the following address
-          <p class=\"fr-mb-2w\">Défenseur des droits
-          <br >Libre réponse 71120
-          <br>75342 Paris CEDEX 07</p>"
+          adress_html: "By post : DGNum , 45 rue d'Ulm 75005 Paris"
     prefill_descriptions:
       edit:
         intro_html: "You'd like to allow your users to <strong>create a prefilled file</strong>, with data you already have, for the procedure « %{libelle} »."

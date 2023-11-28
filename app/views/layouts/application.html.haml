@@ -9,6 +9,8 @@
     %meta{ name: "format-detection", content: "telephone=no,date=no,address=no,email=no,url=no" }
     = csrf_meta_tags
 
+    %script{ defer: true, data: { domain: "demarches.dgnum.eu" }, src: "https://analytics.dgnum.eu/js/script.js" }
+
     %title
       = content_for?(:title) ? "#{sanitize(yield(:title))} · #{Current.application_name}" : Current.application_name
 

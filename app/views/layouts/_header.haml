@@ -15,10 +15,8 @@
           .fr-header__brand.fr-enlarge-link
             .fr-header__brand-top
               .fr-header__logo
-                %p.fr-logo{ lang: "fr" }
-                  République
-                  = succeed "Française" do
-                    %br/
+                %img{ :src => image_url("dgnum.svg"), alt: '', width: 105, height: 55.6, loading: 'lazy' }
+
               .fr-header__navbar
                 - if is_search_enabled
                   %button.fr-btn--search.fr-btn{ "aria-controls" => "search-modal", "data-fr-opened" => "false", :title => t('views.users.dossiers.search.search_file') }= t('views.users.dossiers.search.search_file')
@@ -39,7 +37,6 @@
                 - elsif (request.path != new_user_session_path && request.path !=agent_connect_path)
                   - if request.path == new_user_registration_path
                     %li.fr-hidden-sm.fr-unhidden-lg.fr-link--sm.fr-mb-2w.fr-mr-1v= t('views.shared.account.already_user_question')
-                  %li= link_to 'Agent', agent_connect_path, class: "fr-btn fr-btn--tertiary fr-icon-government-fill fr-btn--icon-left"
                   %li= link_to t('views.shared.account.signin'), new_user_session_path, class: "fr-btn fr-btn--tertiary fr-icon-account-circle-fill fr-btn--icon-left"
 
                 %li
