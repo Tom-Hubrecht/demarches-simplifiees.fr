@@ -1,7 +1,7 @@
 en:
   links:
     provider:
-      provided_by: "The DINUM"
+      provided_by: "The DGNum"
     common:
       faq:
         label: "FAQ"
@@ -21,8 +21,8 @@ en:
         resources: Resources
         diagnostic: Diagnostic
       description_1: Démarches simplifiées is powered by
-      link_1_label: the interdepartmental direction of digital (DINUM).
-      link_1_url: "https://www.numerique.gouv.fr/dinum/"
+      link_1_label: the general delegation of digital (DGNum).
+      link_1_url: "https://www.dgnum.eu"
       link_2_label: The source code
       description_2: is available under a free license.
       copy_html: "Unless otherwise stated, all public data on this site are %{link}"
@@ -35,9 +35,9 @@ en:
         title: "API Documentation"
         url: "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/graphql"
       dinum:
-        title: "The DINUM website - Government"
-        url: "https://www.numerique.gouv.fr/dinum/"
-        alt: "Interministerial Directorate for Digital Affairs"
+        title: "The DGNum website"
+        url: "https://www.dgnum.eu/"
+        alt: "General Delegation for Digital Affairs"
       code:
         label: "Source code"
         title: "Our Source code is open source"
