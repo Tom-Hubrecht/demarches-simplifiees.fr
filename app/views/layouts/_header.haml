@@ -14,10 +14,8 @@
         .fr-header__brand.fr-enlarge-link
           .fr-header__brand-top
             .fr-header__logo
-              %p.fr-logo
-                République
-                = succeed "Française" do
-                  %br/
+              %img{ :src => image_url("dgnum.svg"), alt: '', width: 105, height: 55.6, loading: 'lazy' }
+
             .fr-header__navbar
               - if is_search_enabled
                 %button.fr-btn--search.fr-btn{ "aria-controls" => "search-modal", "data-fr-opened" => "false", :title => t('views.users.dossiers.search.search_file') }= t('views.users.dossiers.search.search_file')
