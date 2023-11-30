@@ -1,9 +1,9 @@
 fr:
   links:
     provider:
-      provided_by: "la DINUM"
-      title: "Direction Interministérielle au Numérique"
-      url: "https://numerique.gouv.fr"
+      provided_by: "la DGNum"
+      title: "Délégation Générale Numérique"
+      url: "https://dgnum.eu"
     common:
       faq:
         label: "FAQ"
@@ -23,8 +23,8 @@ fr:
         resources: Ressources
         diagnostic: Diagnostic
       description_1: Démarches simplifiées est un service propulsé par
-      link_1_label: la direction interministérielle du numérique (DINUM)
-      link_1_url: "https://www.numerique.gouv.fr/dinum/"
+      link_1_label: la Délégation Générale Numérique (DGNum)
+      link_1_url: "https://www.dgnum.eu"
       link_2_label: Le code source
       description_2: est disponible en licence libre.
       copy_html: "Sauf mention contraire, les données publiques de ce site sont sous %{link}"
@@ -37,9 +37,9 @@ fr:
         title: "Documentation graphql de l’API"
         url: "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/graphql"
       dinum:
-        title: "Le site de la DINUM — Gouvernement"
-        url: "https://www.numerique.gouv.fr/dinum/"
-        alt: "Direction interministérielle du numérique"
+        title: "Le site de la DGNum"
+        url: "https://www.dgnum.eu/"
+        alt: "Délégation Générale Numérique"
       cgu:
         label: "CGU"
         title: "Conditions Générales d’Utilisation"
@@ -68,7 +68,7 @@ fr:
       security:
         label: "Sécurité"
         title: "Vous avez identifié une faille, comment nous en informer"
-        url: "https://github.com/betagouv/demarches-simplifiees.fr/blob/main/SECURITY.md"
+        url: "mailto:secu@dgnum.eu"
       stats:
         label: "Statistiques"
         title: "Statistiques d’usage"
