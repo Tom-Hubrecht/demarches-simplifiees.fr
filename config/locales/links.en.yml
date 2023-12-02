@@ -2,6 +2,8 @@ en:
   links:
     provider:
       provided_by: "The DGNum"
+      title: "Délégation Générale Numérique"
+      url: "https://dgnum.eu"
     common:
       faq:
         label: "FAQ"
@@ -20,7 +22,7 @@ en:
         legals: Legal information
         resources: Resources
         diagnostic: Diagnostic
-      description_1: Démarches simplifiées is powered by
+      description_1: Démarches normaliennes is powered by
       link_1_label: the general delegation of digital (DGNum).
       link_1_url: "https://www.dgnum.eu"
       link_2_label: The source code
