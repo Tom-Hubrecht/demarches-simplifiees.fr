@@ -23,7 +23,7 @@ fr:
       api_doc:
         label: "Documentation de l’API"
         title: "Documentation graphql de l’API"
-        url: "https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/graphql"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/doc/api-graphql-wBZIww60cM"
       dinum:
         title: "Le site de la DGNum"
         url: "https://www.dgnum.eu/"
@@ -31,7 +31,7 @@ fr:
       cgu:
         label: "CGU"
         title: "Conditions Générales d’Utilisation"
-        url: "https://doc.demarches-simplifiees.fr/cgu"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/doc/conditions-generales-dutilisation-bp8KxfE00J"
       code:
         label: "Code source"
         title: "Le code ouvert de demarches-simplifiees"
@@ -42,7 +42,7 @@ fr:
       doc:
         label: "Documentation"
         title: "Documentation utilisateur"
-        url: "https://doc.demarches-simplifiees.fr"
+        url: "https://docs.dgnum.eu/s/demarches-normaliennes/"
       vote_feature:
         label: "Améliorer le site"
         title: "Votez pour vos améliorations prioritaires ou proposez votre propre idée"

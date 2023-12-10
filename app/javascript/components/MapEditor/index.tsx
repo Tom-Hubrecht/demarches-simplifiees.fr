@@ -40,7 +40,7 @@ export default function MapEditor({
         <p style={{ marginBottom: '20px' }}>
           Besoin d&apos;aide ?&nbsp;
           <a
-            href="https://doc.demarches-simplifiees.fr/pour-aller-plus-loin/cartographie"
+            href="https://docs.dgnum.eu/s/demarches-normaliennes/doc/cartographie-eamF3DhlUM"
             target="_blank"
             rel="noreferrer"
           >
