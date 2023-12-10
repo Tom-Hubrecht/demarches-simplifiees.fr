@@ -98,12 +98,3 @@
         = render Dsfr::CardVerticalComponent.new(title: "Vous êtes prêt pour dématérialiser ?", desc: "Réduisez vos temps d’instruction de 50 %") do |c|
           - c.with_footer_button do
             = link_to("Créer votre compte administrateur", DEMANDE_INSCRIPTION_ADMIN_PAGE_URL, class: "fr-btn", **external_link_attributes)
-
-  .fr-py-6w.fr-background-alt--blue-france
-    .container
-      .cta-panel-wrapper
-        %div
-          %h2 Une question, un problème ?
-          %p.fr-h5 Consultez notre FAQ
-        %div
-          = link_to "Voir la FAQ", t("links.common.faq.url"), class: "fr-btn fr-btn--lg", **external_link_attributes

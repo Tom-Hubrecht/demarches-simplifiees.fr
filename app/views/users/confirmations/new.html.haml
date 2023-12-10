@@ -29,8 +29,3 @@
       = form_for(resource, as: resource_name, url: confirmation_path(resource_name)) do |f|
         = render Dsfr::InputComponent.new(form: f, attribute: :email, input_type: :email_field, opts: { autofocus: true })
         = f.submit 'Renvoyer un email de confirmation', class: 'fr-btn'
-
-      %p.fr-mt-3w
-        Vous pouvez également consulter notre
-        = link_to(t("links.common.faq.label"), t("links.common.faq.email_non_recu_url"), title: new_tab_suffix(t("links.common.faq.title")), **external_link_attributes)
-        \.
